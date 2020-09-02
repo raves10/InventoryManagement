@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="updatebrand" layoutX="54.0" layoutY="26.0" text="Label" />
+      <Label layoutX="54.0" layoutY="71.0" prefHeight="21.0" prefWidth="143.0" text="Select a Product :" />
+      <Button layoutX="155.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleUpdate" text="Update Product" />
+      <ComboBox fx:id="prodCombo" layoutX="190.0" layoutY="66.0" onAction="#changeMenu" prefHeight="31.0" prefWidth="281.0" />
+      <Label layoutX="54.0" layoutY="128.0" prefHeight="21.0" prefWidth="113.0" text="Enter Count :" />
+      <Label layoutX="54.0" layoutY="179.0" prefHeight="21.0" prefWidth="113.0" text="Enter Price :" />
+      <TextField fx:id="counttext" layoutX="190.0" layoutY="123.0" onAction="#getCount" prefHeight="31.0" prefWidth="281.0" text="0" />
+      <TextField fx:id="pricetext" layoutX="190.0" layoutY="174.0" onAction="#getprice" prefHeight="31.0" prefWidth="281.0" text="0.0" />
+      <Button layoutX="321.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleUpdate" prefHeight="31.0" prefWidth="100.0" text="Back" />
+      <Label fx:id="msg" layoutX="108.0" layoutY="322.0" text="Label" />
+   </children>
+</AnchorPane>

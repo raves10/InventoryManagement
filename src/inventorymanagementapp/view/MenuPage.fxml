@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="35.0" layoutY="62.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="125.0" text="Add Product" />
+      <Button layoutX="35.0" layoutY="125.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Update Product" />
+      <Button layoutX="223.0" layoutY="62.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Delete Product" />
+      <Button layoutX="223.0" layoutY="125.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="119.0" text="Check Stock" />
+      <Button layoutX="469.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Back" />
+      <Label fx:id="brand_lable" layoutX="241.0" layoutY="14.0" text="Label" />
+      <Button layoutX="401.0" layoutY="62.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="142.0" text="Display Product" />
+   </children>
+</AnchorPane>

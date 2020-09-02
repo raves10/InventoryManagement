@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="deletebrand" layoutX="57.0" layoutY="33.0" text="Label" />
+      <Label layoutX="57.0" layoutY="83.0" prefHeight="21.0" prefWidth="121.0" text="Select Product :" />
+      <ComboBox fx:id="prodCombo" layoutX="188.0" layoutY="78.0" onAction="#changeContent" prefHeight="31.0" prefWidth="244.0" />
+      <Button layoutX="145.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleDelete" prefHeight="31.0" prefWidth="121.0" text="Delete Product" />
+      <Button layoutX="300.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleDelete" prefHeight="31.0" prefWidth="94.0" text="Back" />
+      <Label fx:id="msg" layoutX="118.0" layoutY="282.0" text="Label" />
+   </children>
+</AnchorPane>

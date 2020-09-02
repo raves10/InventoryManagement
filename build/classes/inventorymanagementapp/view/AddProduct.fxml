@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="32.0" layoutY="33.0" prefHeight="21.0" prefWidth="176.0" text="Enter Ingredients :" />
+      <Label layoutX="32.0" layoutY="72.0" prefHeight="21.0" prefWidth="176.0" text="Enter Ingedients Purity :" />
+      <Label layoutX="32.0" layoutY="102.0" prefHeight="28.0" prefWidth="183.0" text="Enter Flavour :" />
+      <Label layoutX="32.0" layoutY="147.0" prefHeight="21.0" prefWidth="183.0" text="Enter Product Name :" />
+      <Label layoutX="32.0" layoutY="190.0" prefHeight="21.0" prefWidth="183.0" text="Enter Product description :" />
+      <Label layoutX="32.0" layoutY="231.0" prefHeight="21.0" prefWidth="176.0" text="Enter Product Stock :" />
+      <Label layoutX="32.0" layoutY="270.0" prefHeight="21.0" prefWidth="176.0" text="Enter Product Price :" />
+      <TextField fx:id="ingredients" layoutX="253.0" layoutY="28.0" prefHeight="31.0" prefWidth="251.0" />
+      <TextField fx:id="purity" layoutX="253.0" layoutY="67.0" prefHeight="31.0" prefWidth="251.0" />
+      <TextField fx:id="flavour" layoutX="253.0" layoutY="102.0" prefHeight="31.0" prefWidth="251.0" />
+      <TextField fx:id="pname" layoutX="253.0" layoutY="142.0" prefHeight="31.0" prefWidth="251.0" />
+      <TextField fx:id="pdesc" layoutX="253.0" layoutY="185.0" prefHeight="31.0" prefWidth="251.0" />
+      <TextField fx:id="pstock" layoutX="253.0" layoutY="226.0" prefHeight="31.0" prefWidth="251.0" />
+      <TextField fx:id="pprice" layoutX="253.0" layoutY="265.0" prefHeight="31.0" prefWidth="251.0" />
+      <Button layoutX="242.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleAddButton" text="Add Product!" />
+      <Label fx:id="msg" layoutX="108.0" layoutY="357.0" prefHeight="21.0" prefWidth="368.0" text="Label" />
+      <Label fx:id="addbrand" layoutX="35.0" layoutY="14.0" prefHeight="21.0" prefWidth="176.0" text="Label" />
+      <Button layoutX="379.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleAddButton" prefHeight="31.0" prefWidth="73.0" text="Back" />
+   </children>
+</AnchorPane>
